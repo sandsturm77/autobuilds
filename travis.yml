@@ -6,8 +6,8 @@ services:
 language: bash
 
 before_script:
-    - "docker build -t sandsturm/autobuilds ."
-    - "docker container run --detach --publish 8080:80 sandsturm/autobuilds"
+    - "docker build -t sandsturm77/autobuilds ."
+    - "docker container run --detach --publish 8080:80 sandsturm77/autobuilds"
     - docker ps
 
 script:
